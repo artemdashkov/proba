@@ -1,1 +1,5 @@
-.new/
+/.new/
+/.idea/
+/.pytest_cache/
+/__pycache__/
+/Lib/
