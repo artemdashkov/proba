@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
 
-arr = np.random.standard_normal((6,4))
-df = pd.DataFrame(arr, columns=["A", "B", "C", "D"],
-                  index=[1,2,3,4,5,6])
-print(df.loc[2:5,["B", "D"]])
+list_1 = [1, 2, 3]
+list_2 = [4, 5, 6]
+
+df = pd.DataFrame(list_1, list_2, columns=["A", "B"],
+                  index=[1,2,3])
+print(df)
