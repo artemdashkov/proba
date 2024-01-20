@@ -1,0 +1,1 @@
+CHROME_WINDOW_SIZES = "--window-size=1280,720"
