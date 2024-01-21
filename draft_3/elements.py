@@ -14,7 +14,8 @@ class ButtonsOnPageLocators:
 
     SPAN_TRADING_ITEM_MOST_TRADED = (By.CSS_SELECTOR,
                                      ".table-tools.catTabs.tab-mosttraded > table > "
-                                                      "tbody > tr > td.name > a > span.table-tools__title")
+                                                      "tbody > tr > td.name > a > span.table-tools__title") # name of elements
+    SHOW_ALL = (By.CSS_SELECTOR, ".tab-mosttraded > p > .btnShowMore")
 
 
 
